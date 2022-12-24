@@ -1,0 +1,10 @@
+# Ignore promoted wraps
+*.wrap
+!cairo.wrap
+!glib.wrap
+!gtk.wrap
+!harfbuzz.wrap
+!pango.wrap
+
+# Ignore every subdirectory
+*/
