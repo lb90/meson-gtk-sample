@@ -1,5 +1,6 @@
 # Ignore promoted wraps
 *.wrap
+!adwaita-icon-theme.wrap
 !cairo.wrap
 !glib.wrap
 !gtk.wrap

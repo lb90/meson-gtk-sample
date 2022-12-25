@@ -1,0 +1,9 @@
+[wrap-git]
+directory = adwaita-icon-theme
+url = https://github.com/lb90/adwaita-icon-theme.git
+revision = main
+depth = 1
+
+[provide]
+adwaita-icon-theme = adwaita_icon_theme
+dependency_names = adwaita-icon-theme

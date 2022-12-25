@@ -8,6 +8,8 @@ libgtk_dep = dependency('gtk4',
                           'media-gstreamer=disabled',
                         ])
 
+subproject('adwaita-icon-theme', required: false)
+
 exe = executable('gtk-sample',
                  'main.c',
                  dependencies: [libgtk_dep],
